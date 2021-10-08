@@ -1,0 +1,328 @@
+23:29:48.565 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 12228 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+23:29:48.561 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+23:29:48.566 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+23:29:50.008 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:29:50.087 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+23:29:51.284 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:29:51.295 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:29:51.296 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+23:29:51.296 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+23:29:51.403 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+23:29:51.404 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2782 ms
+23:29:51.730 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+23:29:51.737 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+23:29:51.912 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+23:29:51.971 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+23:29:52.024 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.023s)
+23:29:52.037 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+23:29:52.038 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+23:29:52.132 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:29:52.196 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+23:29:52.385 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+23:29:52.516 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+23:29:53.223 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+23:29:53.232 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:29:54.022 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:29:54.191 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+23:29:54.564 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:29:54.584 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:29:54.924 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 6.766 seconds (JVM running for 7.456)
+23:30:04.582 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:30:04.584 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:30:04.585 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+23:34:12.449 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+23:34:12.460 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 4364 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+23:34:12.460 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+23:34:14.079 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:34:14.194 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94 ms. Found 3 JPA repository interfaces.
+23:34:15.591 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:34:15.603 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:34:15.604 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+23:34:15.604 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+23:34:15.729 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+23:34:15.729 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3207 ms
+23:34:16.141 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+23:34:16.150 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+23:34:16.382 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+23:34:16.483 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+23:34:16.566 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.042s)
+23:34:16.580 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+23:34:16.582 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+23:34:16.713 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:34:16.813 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+23:34:17.064 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+23:34:17.245 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+23:34:18.401 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+23:34:18.412 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:34:19.250 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:34:19.495 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+23:34:19.990 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:34:20.024 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:34:20.483 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 8.472 seconds (JVM running for 10.115)
+23:35:08.743 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:35:08.743 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:35:08.747 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 4 ms
+23:36:37.808 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:36:37.812 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:36:37.829 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:37:22.517 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+23:37:22.535 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 4228 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+23:37:22.536 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+23:37:24.109 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:37:24.213 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
+23:37:25.462 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:37:25.475 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:37:25.476 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+23:37:25.476 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+23:37:25.592 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+23:37:25.592 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2974 ms
+23:37:25.999 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+23:37:26.009 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+23:37:26.237 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+23:37:26.307 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+23:37:26.365 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.028s)
+23:37:26.380 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+23:37:26.381 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+23:37:26.505 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:37:26.584 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+23:37:26.774 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+23:37:26.983 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+23:37:28.017 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+23:37:28.028 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:37:28.733 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:37:28.953 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+23:37:29.372 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:37:29.402 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:37:29.793 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 7.771 seconds (JVM running for 8.619)
+23:37:38.278 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:37:38.278 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:37:38.283 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 5 ms
+23:37:51.285 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:37:51.288 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:37:51.303 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:38:41.558 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 11176 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+23:38:41.562 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+23:38:43.162 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:38:43.255 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+23:38:44.425 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:38:44.437 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:38:44.438 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+23:38:44.438 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+23:38:44.566 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+23:38:44.567 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2928 ms
+23:38:44.959 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+23:38:44.968 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+23:38:45.203 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+23:38:45.281 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+23:38:45.371 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.036s)
+23:38:45.385 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+23:38:45.386 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+23:38:47.127 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:38:47.883 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:38:47.999 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 16 mappings in 'requestMappingHandlerMapping'
+23:38:48.107 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+23:38:48.306 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+23:38:48.392 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+23:38:48.404 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+23:38:48.541 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:38:48.567 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:38:48.978 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 7.949 seconds (JVM running for 8.739)
+23:38:54.281 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:38:54.281 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:38:54.281 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+23:38:54.281 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+23:38:54.281 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected FixedThemeResolver
+23:38:54.286 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@439b0198
+23:38:54.287 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@29811d4d
+23:38:54.287 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+23:38:54.287 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 6 ms
+23:38:54.300 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-ui.html", parameters={}
+23:38:54.311 [http-nio-8080-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+23:38:54.320 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
+23:38:54.572 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources/configuration/ui", parameters={}
+23:38:54.574 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+23:38:54.574 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+23:38:54.575 [http-nio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+23:38:54.592 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+23:38:54.594 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+23:38:54.637 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.UiConfiguration@3b5c7fcc]
+23:38:54.652 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+23:38:54.657 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources/configuration/security", parameters={}
+23:38:54.657 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+23:38:54.658 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+23:38:54.661 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.SecurityConfiguration@74561b3d]
+23:38:54.662 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+23:38:54.666 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources", parameters={}
+23:38:54.667 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+23:38:54.668 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+23:38:54.670 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[springfox.documentation.swagger.web.SwaggerResource@69680d12]]
+23:38:54.673 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+23:38:54.709 [http-nio-8080-exec-6] DEBUG o.s.w.s.DispatcherServlet - GET "/v2/api-docs", parameters={}
+23:38:54.709 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/", parameters={}
+23:38:54.710 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+23:38:54.711 [http-nio-8080-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+23:38:54.711 [http-nio-8080-exec-7] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+23:38:54.712 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+23:38:54.720 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+23:38:54.722 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+23:38:54.729 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+23:38:54.730 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sun Oct 03 23:38:54 IST 2021, status=404, error=Not Found, path=/}]
+23:38:54.738 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+23:38:54.742 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - GET "/csrf", parameters={}
+23:38:54.743 [http-nio-8080-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+23:38:54.745 [http-nio-8080-exec-8] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+23:38:54.746 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+23:38:54.746 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+23:38:54.747 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+23:38:54.748 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+23:38:54.748 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sun Oct 03 23:38:54 IST 2021, status=404, error=Not Found, path=/csrf}]
+23:38:54.751 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+23:38:54.870 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, */*] and supported [application/json, application/hal+json]
+23:38:54.872 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.spring.web.json.Json@778493fc]
+23:38:54.873 [http-nio-8080-exec-6] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+23:39:22.253 [http-nio-8080-exec-9] DEBUG o.s.w.s.DispatcherServlet - POST "/api/v1/publisher", parameters={}
+23:39:22.254 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.springboot.microservice.book.controller.PublisherController#addOrUpdatePublisher(PublisherDTO)
+23:39:22.339 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PublisherDTO(id=null, name=some, contactNo=1234567890)]
+23:39:22.446 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.springboot.microservice.book.exception.ControllerAdviser#handleException(Exception, WebRequest)
+23:39:22.448 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+23:39:22.449 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Integer> com.springboot.microservice.book.controller.PublisherController.addOrUpdatePublisher(com.springboot.microservice.book.dto.PublisherDTO): [Field error in object 'publisherDTO' on field 'contactNo': rejected value [1234567890]; codes [Pattern.publisherDTO.contactNo,Pattern.contactNo,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [publisherDTO.contactNo,contactNo]; arguments []; default message [contactNo],[Ljavax.validation.constraints.Pattern$Flag;@18ae8f50,^0-9{10}$]; default message [only numeric value of 10 digits]] ]
+23:39:22.450 [http-nio-8080-exec-9] DEBUG o.s.w.s.DispatcherServlet - Completed 400 BAD_REQUEST
+23:41:42.446 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:41:42.449 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:41:42.466 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:46:58.143 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 9788 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+23:46:58.149 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+23:46:59.766 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:46:59.851 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+23:47:01.122 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:47:01.135 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:47:01.136 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+23:47:01.136 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+23:47:01.261 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+23:47:01.261 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3027 ms
+23:47:01.626 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+23:47:01.636 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+23:47:01.882 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+23:47:01.998 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+23:47:02.071 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.031s)
+23:47:02.086 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+23:47:02.086 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+23:47:03.880 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:47:04.587 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:47:04.691 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 16 mappings in 'requestMappingHandlerMapping'
+23:47:04.806 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+23:47:04.997 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+23:47:05.076 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+23:47:05.088 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+23:47:05.237 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:47:05.263 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:47:05.676 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 8.098 seconds (JVM running for 8.885)
+23:47:16.019 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:47:16.019 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:47:16.019 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+23:47:16.019 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+23:47:16.020 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected FixedThemeResolver
+23:47:16.024 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5d00e30e
+23:47:16.025 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6779af40
+23:47:16.025 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+23:47:16.025 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 6 ms
+23:47:16.039 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-ui.html", parameters={}
+23:47:16.051 [http-nio-8080-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+23:47:16.061 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
+23:47:16.296 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources/configuration/ui", parameters={}
+23:47:16.298 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+23:47:16.298 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+23:47:16.299 [http-nio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+23:47:16.320 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+23:47:16.324 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+23:47:16.367 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.UiConfiguration@5b964ac2]
+23:47:16.385 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+23:47:16.390 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources/configuration/security", parameters={}
+23:47:16.391 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+23:47:16.391 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+23:47:16.395 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.SecurityConfiguration@59d3a706]
+23:47:16.396 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+23:47:16.401 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources", parameters={}
+23:47:16.402 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+23:47:16.403 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+23:47:16.405 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[springfox.documentation.swagger.web.SwaggerResource@2897fc25]]
+23:47:16.408 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+23:47:16.464 [http-nio-8080-exec-6] DEBUG o.s.w.s.DispatcherServlet - GET "/v2/api-docs", parameters={}
+23:47:16.465 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/", parameters={}
+23:47:16.465 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+23:47:16.466 [http-nio-8080-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+23:47:16.466 [http-nio-8080-exec-7] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+23:47:16.467 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+23:47:16.475 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+23:47:16.477 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+23:47:16.486 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+23:47:16.487 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sun Oct 03 23:47:16 IST 2021, status=404, error=Not Found, path=/}]
+23:47:16.496 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+23:47:16.500 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - GET "/csrf", parameters={}
+23:47:16.503 [http-nio-8080-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+23:47:16.507 [http-nio-8080-exec-8] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+23:47:16.507 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+23:47:16.508 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+23:47:16.509 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+23:47:16.510 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+23:47:16.511 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Sun Oct 03 23:47:16 IST 2021, status=404, error=Not Found, path=/csrf}]
+23:47:16.514 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+23:47:16.636 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, */*] and supported [application/json, application/hal+json]
+23:47:16.638 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.spring.web.json.Json@79b1bc60]
+23:47:16.639 [http-nio-8080-exec-6] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+23:47:50.194 [http-nio-8080-exec-9] DEBUG o.s.w.s.DispatcherServlet - POST "/api/v1/publisher", parameters={}
+23:47:50.195 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.springboot.microservice.book.controller.PublisherController#addOrUpdatePublisher(PublisherDTO)
+23:47:50.297 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PublisherDTO(id=null, name=some, contactNo=9876543210)]
+23:47:50.405 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.springboot.microservice.book.exception.ControllerAdviser#handleException(Exception, WebRequest)
+23:47:50.407 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+23:47:50.408 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Integer> com.springboot.microservice.book.controller.PublisherController.addOrUpdatePublisher(com.springboot.microservice.book.dto.PublisherDTO): [Field error in object 'publisherDTO' on field 'contactNo': rejected value [9876543210]; codes [Pattern.publisherDTO.contactNo,Pattern.contactNo,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [publisherDTO.contactNo,contactNo]; arguments []; default message [contactNo],[Ljavax.validation.constraints.Pattern$Flag;@3623a832,^0-9{10}$]; default message [only numeric value of 10 digits]] ]
+23:47:50.408 [http-nio-8080-exec-9] DEBUG o.s.w.s.DispatcherServlet - Completed 400 BAD_REQUEST
+23:49:13.499 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:49:13.503 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:49:13.521 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:54:23.206 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 11848 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+23:54:23.210 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+23:54:24.794 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:54:24.880 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 3 JPA repository interfaces.
+23:54:26.154 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:54:26.166 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:54:26.166 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+23:54:26.166 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+23:54:26.285 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+23:54:26.285 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3000 ms
+23:54:26.667 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+23:54:26.676 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+23:54:26.916 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+23:54:27.012 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+23:54:27.103 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.031s)
+23:54:27.116 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+23:54:27.116 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+23:54:28.663 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:54:29.399 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:54:29.514 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 16 mappings in 'requestMappingHandlerMapping'
+23:54:29.621 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+23:54:29.822 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+23:54:29.910 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+23:54:29.921 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+23:54:30.063 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:54:30.092 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:54:30.495 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 7.805 seconds (JVM running for 8.599)
+23:54:41.055 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:54:41.055 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:54:41.055 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+23:54:41.055 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+23:54:41.055 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected FixedThemeResolver
+23:54:41.059 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6c38f4de
+23:54:41.060 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@759c53e5
+23:54:41.060 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+23:54:41.060 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 5 ms
+23:54:41.074 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - POST "/api/v1/publisher", parameters={}
+23:54:41.081 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.springboot.microservice.book.controller.PublisherController#addOrUpdatePublisher(PublisherDTO)
+23:54:41.163 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PublisherDTO(id=null, name=some, contactNo=9876543210)]
+23:54:41.221 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.springboot.microservice.book.exception.ControllerAdviser#handleException(Exception, WebRequest)
+23:54:41.234 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+23:54:41.236 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Integer> com.springboot.microservice.book.controller.PublisherController.addOrUpdatePublisher(com.springboot.microservice.book.dto.PublisherDTO): [Field error in object 'publisherDTO' on field 'contactNo': rejected value [9876543210]; codes [Pattern.publisherDTO.contactNo,Pattern.contactNo,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [publisherDTO.contactNo,contactNo]; arguments []; default message [contactNo],[Ljavax.validation.constraints.Pattern$Flag;@35400a3b,^0-9{10}$]; default message [only numeric value of 10 digits]] ]
+23:54:41.236 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 400 BAD_REQUEST
+23:55:24.935 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:55:24.942 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:55:24.964 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.

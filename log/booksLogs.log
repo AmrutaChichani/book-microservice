@@ -1,0 +1,372 @@
+10:10:40.727 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 2520 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+10:10:40.731 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+10:10:43.916 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:10:44.065 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133 ms. Found 3 JPA repository interfaces.
+10:10:46.682 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+10:10:46.720 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:10:46.721 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+10:10:46.721 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+10:10:46.879 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10:10:46.880 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6053 ms
+10:10:47.916 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+10:10:47.921 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+10:10:48.132 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+10:10:48.186 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+10:10:48.346 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.136s)
+10:10:48.361 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+10:10:48.362 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+10:10:49.717 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:10:50.446 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:10:50.556 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 16 mappings in 'requestMappingHandlerMapping'
+10:10:50.644 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+10:10:50.828 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+10:10:50.895 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+10:10:50.903 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+10:10:50.995 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:10:51.013 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+10:10:51.308 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 13.321 seconds (JVM running for 23.125)
+10:11:10.308 [http-nio-8080-exec-5] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:11:10.310 [http-nio-8080-exec-5] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:11:10.310 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+10:11:10.310 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+10:11:10.310 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - Detected FixedThemeResolver
+10:11:10.312 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@44d84313
+10:11:10.312 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3e2578ea
+10:11:10.312 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+10:11:10.312 [http-nio-8080-exec-5] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+10:11:10.352 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+10:11:10.352 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+10:11:10.352 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+10:11:10.352 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+10:11:10.352 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+10:11:10.375 [http-nio-8080-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+10:11:10.375 [http-nio-8080-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+10:11:10.375 [http-nio-8080-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+10:11:10.375 [http-nio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+10:11:10.375 [http-nio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+10:11:10.421 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
+10:11:10.421 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
+10:11:10.421 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
+10:11:10.421 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
+10:11:10.421 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
+10:11:10.697 [http-nio-8080-exec-6] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources/configuration/ui", parameters={}
+10:11:10.699 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+10:11:10.716 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+10:11:10.769 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.UiConfiguration@70b4a549]
+10:11:10.783 [http-nio-8080-exec-6] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+10:11:10.787 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources/configuration/security", parameters={}
+10:11:10.788 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+10:11:10.789 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+10:11:10.791 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.SecurityConfiguration@55980007]
+10:11:10.792 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+10:11:10.795 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources", parameters={}
+10:11:10.796 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+10:11:10.797 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+10:11:10.798 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[springfox.documentation.swagger.web.SwaggerResource@45e07b9d]]
+10:11:10.799 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+10:11:10.826 [http-nio-8080-exec-9] DEBUG o.s.w.s.DispatcherServlet - GET "/", parameters={}
+10:11:10.826 [http-nio-8080-exec-10] DEBUG o.s.w.s.DispatcherServlet - GET "/v2/api-docs", parameters={}
+10:11:10.827 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+10:11:10.827 [http-nio-8080-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+10:11:10.828 [http-nio-8080-exec-9] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+10:11:10.828 [http-nio-8080-exec-9] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+10:11:10.844 [http-nio-8080-exec-9] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+10:11:10.845 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+10:11:10.849 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+10:11:10.850 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Mon Oct 04 10:11:10 IST 2021, status=404, error=Not Found, path=/}]
+10:11:10.855 [http-nio-8080-exec-9] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+10:11:10.864 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+10:11:10.865 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - GET "/csrf", parameters={}
+10:11:10.866 [http-nio-8080-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+10:11:10.866 [http-nio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+10:11:10.867 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
+10:11:10.868 [http-nio-8080-exec-3] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+10:11:10.869 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+10:11:10.870 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+10:11:10.871 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+10:11:10.873 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+10:11:10.873 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Mon Oct 04 10:11:10 IST 2021, status=404, error=Not Found, path=/csrf}]
+10:11:10.874 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+10:11:10.961 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, */*] and supported [application/json, application/hal+json]
+10:11:10.964 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.spring.web.json.Json@7daa7adc]
+10:11:10.965 [http-nio-8080-exec-10] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+10:11:11.087 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+10:11:11.087 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+10:11:11.087 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+10:11:11.088 [http-nio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+10:11:11.089 [http-nio-8080-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+10:11:11.089 [http-nio-8080-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+10:11:11.090 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
+10:11:11.091 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
+10:11:11.091 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
+10:11:14.786 [http-nio-8080-exec-6] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2", parameters={}
+10:11:14.787 [http-nio-8080-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+10:11:14.790 [http-nio-8080-exec-6] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
+10:11:19.315 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2", parameters={}
+10:11:19.316 [http-nio-8080-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+10:11:19.318 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
+10:11:49.824 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - POST "/api/v1/publisher", parameters={}
+10:11:49.825 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.springboot.microservice.book.controller.PublisherController#addOrUpdatePublisher(PublisherDTO)
+10:11:49.857 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PublisherDTO(id=null, name=Sunrise, contactNo=987654321)]
+10:11:50.410 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.springboot.microservice.book.exception.ControllerAdviser#handleException(Exception, WebRequest)
+10:11:50.411 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+10:11:50.412 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Integer> com.springboot.microservice.book.controller.PublisherController.addOrUpdatePublisher(com.springboot.microservice.book.dto.PublisherDTO): [Field error in object 'publisherDTO' on field 'contactNo': rejected value [987654321]; codes [Pattern.publisherDTO.contactNo,Pattern.contactNo,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [publisherDTO.contactNo,contactNo]; arguments []; default message [contactNo],[Ljavax.validation.constraints.Pattern$Flag;@4eb0c229,^0-9{10}$]; default message [only numeric value of 10 digits]] ]
+10:11:50.413 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - Completed 400 BAD_REQUEST
+10:12:54.611 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - POST "/api/v1/publisher", parameters={}
+10:12:54.612 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.springboot.microservice.book.controller.PublisherController#addOrUpdatePublisher(PublisherDTO)
+10:12:54.614 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PublisherDTO(id=null, name=Sunrise, contactNo=9876543210)]
+10:12:54.615 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.springboot.microservice.book.exception.ControllerAdviser#handleException(Exception, WebRequest)
+10:12:54.616 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+10:12:54.616 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Integer> com.springboot.microservice.book.controller.PublisherController.addOrUpdatePublisher(com.springboot.microservice.book.dto.PublisherDTO): [Field error in object 'publisherDTO' on field 'contactNo': rejected value [9876543210]; codes [Pattern.publisherDTO.contactNo,Pattern.contactNo,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [publisherDTO.contactNo,contactNo]; arguments []; default message [contactNo],[Ljavax.validation.constraints.Pattern$Flag;@4eb0c229,^0-9{10}$]; default message [only numeric value of 10 digits]] ]
+10:12:54.616 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 400 BAD_REQUEST
+10:37:19.938 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 12556 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+10:37:19.942 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+10:37:21.259 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:37:21.331 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+10:37:22.253 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+10:37:22.262 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:37:22.263 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+10:37:22.263 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+10:37:22.386 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10:37:22.386 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2360 ms
+10:37:22.649 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+10:37:22.655 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+10:37:22.843 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+10:37:22.901 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+10:37:22.944 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.021s)
+10:37:22.955 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+10:37:22.956 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+10:37:24.164 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:37:24.669 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:37:24.757 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 16 mappings in 'requestMappingHandlerMapping'
+10:37:24.837 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+10:37:24.995 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+10:37:25.063 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+10:37:25.074 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+10:37:25.184 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:37:25.208 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+10:37:25.505 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 5.95 seconds (JVM running for 6.596)
+10:37:36.999 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:37:36.999 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:37:36.999 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+10:37:36.999 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+10:37:36.999 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected FixedThemeResolver
+10:37:37.000 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@369fb99a
+10:37:37.001 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3e595da3
+10:37:37.001 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+10:37:37.001 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+10:37:37.011 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources/configuration/ui", parameters={}
+10:37:37.016 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+10:37:37.033 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+10:37:37.053 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.UiConfiguration@153cdf07]
+10:37:37.068 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+10:37:37.074 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources/configuration/security", parameters={}
+10:37:37.074 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+10:37:37.075 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+10:37:37.077 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.SecurityConfiguration@13ca95e6]
+10:37:37.079 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+10:37:37.082 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources", parameters={}
+10:37:37.082 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+10:37:37.083 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+10:37:37.084 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[springfox.documentation.swagger.web.SwaggerResource@73b3a58d]]
+10:37:37.086 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+10:37:37.113 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - GET "/", parameters={}
+10:37:37.113 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - GET "/v2/api-docs", parameters={}
+10:37:37.113 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+10:37:37.116 [http-nio-8080-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+10:37:37.117 [http-nio-8080-exec-5] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+10:37:37.117 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+10:37:37.121 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+10:37:37.122 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+10:37:37.128 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+10:37:37.128 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Mon Oct 04 10:37:37 IST 2021, status=404, error=Not Found, path=/}]
+10:37:37.136 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+10:37:37.143 [http-nio-8080-exec-6] DEBUG o.s.w.s.DispatcherServlet - GET "/csrf", parameters={}
+10:37:37.144 [http-nio-8080-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+10:37:37.145 [http-nio-8080-exec-6] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+10:37:37.146 [http-nio-8080-exec-6] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+10:37:37.146 [http-nio-8080-exec-6] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+10:37:37.146 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+10:37:37.147 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+10:37:37.147 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Mon Oct 04 10:37:37 IST 2021, status=404, error=Not Found, path=/csrf}]
+10:37:37.148 [http-nio-8080-exec-6] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+10:37:37.223 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, */*] and supported [application/json, application/hal+json]
+10:37:37.226 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.spring.web.json.Json@2ae19022]
+10:37:37.228 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+10:38:15.338 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - POST "/api/v1/publisher", parameters={}
+10:38:15.338 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.springboot.microservice.book.controller.PublisherController#addOrUpdatePublisher(PublisherDTO)
+10:38:15.371 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PublisherDTO(id=null, name=Sunrise, contactNo=9876543210)]
+10:38:15.402 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.springboot.microservice.book.exception.ControllerAdviser#handleException(Exception, WebRequest)
+10:38:15.402 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+10:38:15.402 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Integer> com.springboot.microservice.book.controller.PublisherController.addOrUpdatePublisher(com.springboot.microservice.book.dto.PublisherDTO): [Field error in object 'publisherDTO' on field 'contactNo': rejected value [9876543210]; codes [Pattern.publisherDTO.contactNo,Pattern.contactNo,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [publisherDTO.contactNo,contactNo]; arguments []; default message [contactNo],[Ljavax.validation.constraints.Pattern$Flag;@6ee8d86,^0-9{10}$]; default message [only numeric value of 10 digits]] ]
+10:38:15.403 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 400 BAD_REQUEST
+11:37:25.308 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 3348 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+11:37:25.310 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+11:37:26.615 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:37:26.671 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 3 JPA repository interfaces.
+11:37:27.606 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:37:27.616 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:37:27.616 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+11:37:27.617 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+11:37:27.730 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+11:37:27.730 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2368 ms
+11:37:28.002 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+11:37:28.008 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+11:37:28.156 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+11:37:28.208 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+11:37:28.253 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.020s)
+11:37:28.263 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+11:37:28.264 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+11:37:29.424 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:37:29.964 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:37:30.035 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 16 mappings in 'requestMappingHandlerMapping'
+11:37:30.109 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+11:37:30.243 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+11:37:30.296 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+11:37:30.308 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+11:37:30.410 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:37:30.434 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:37:30.999 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 6.108 seconds (JVM running for 6.735)
+11:37:39.239 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:37:39.239 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:37:39.239 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+11:37:39.239 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+11:37:39.239 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected FixedThemeResolver
+11:37:39.242 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@81a8898
+11:37:39.242 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5c0272e0
+11:37:39.243 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+11:37:39.243 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 4 ms
+11:37:39.253 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-ui.html", parameters={}
+11:37:39.263 [http-nio-8080-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+11:37:39.272 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
+11:37:39.490 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources/configuration/ui", parameters={}
+11:37:39.491 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+11:37:39.511 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+11:37:39.519 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+11:37:39.520 [http-nio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+11:37:39.527 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:37:39.543 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.UiConfiguration@31b3b628]
+11:37:39.558 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:37:39.563 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources/configuration/security", parameters={}
+11:37:39.564 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+11:37:39.564 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+11:37:39.568 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.SecurityConfiguration@157147a8]
+11:37:39.569 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:37:39.572 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources", parameters={}
+11:37:39.572 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+11:37:39.573 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+11:37:39.575 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[springfox.documentation.swagger.web.SwaggerResource@1b268bb5]]
+11:37:39.577 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:37:39.615 [http-nio-8080-exec-6] DEBUG o.s.w.s.DispatcherServlet - GET "/v2/api-docs", parameters={}
+11:37:39.616 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/", parameters={}
+11:37:39.616 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+11:37:39.617 [http-nio-8080-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+11:37:39.617 [http-nio-8080-exec-7] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+11:37:39.618 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+11:37:39.622 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+11:37:39.624 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+11:37:39.630 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+11:37:39.630 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Mon Oct 04 11:37:39 IST 2021, status=404, error=Not Found, path=/}]
+11:37:39.639 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+11:37:39.641 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - GET "/csrf", parameters={}
+11:37:39.642 [http-nio-8080-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+11:37:39.644 [http-nio-8080-exec-8] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+11:37:39.645 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+11:37:39.645 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+11:37:39.646 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+11:37:39.647 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+11:37:39.647 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Mon Oct 04 11:37:39 IST 2021, status=404, error=Not Found, path=/csrf}]
+11:37:39.649 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+11:37:39.738 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, */*] and supported [application/json, application/hal+json]
+11:37:39.740 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.spring.web.json.Json@21ca783c]
+11:37:39.741 [http-nio-8080-exec-6] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:37:49.711 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources/configuration/ui", parameters={}
+11:37:49.712 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+11:37:49.713 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+11:37:49.713 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.UiConfiguration@31b3b628]
+11:37:49.713 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:37:49.716 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources/configuration/security", parameters={}
+11:37:49.717 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+11:37:49.717 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+11:37:49.717 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.SecurityConfiguration@157147a8]
+11:37:49.718 [http-nio-8080-exec-3] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:37:49.721 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/swagger-resources", parameters={}
+11:37:49.721 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+11:37:49.721 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+11:37:49.722 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[springfox.documentation.swagger.web.SwaggerResource@524e0ffb]]
+11:37:49.722 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:37:49.748 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - GET "/v2/api-docs", parameters={}
+11:37:49.749 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - GET "/", parameters={}
+11:37:49.749 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+11:37:49.749 [http-nio-8080-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+11:37:49.749 [http-nio-8080-exec-5] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+11:37:49.750 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+11:37:49.750 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+11:37:49.750 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+11:37:49.751 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+11:37:49.751 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Mon Oct 04 11:37:49 IST 2021, status=404, error=Not Found, path=/}]
+11:37:49.752 [http-nio-8080-exec-5] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+11:37:49.765 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, */*] and supported [application/json, application/hal+json]
+11:37:49.765 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.spring.web.json.Json@10b54862]
+11:37:49.766 [http-nio-8080-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:37:49.772 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/csrf", parameters={}
+11:37:49.772 [http-nio-8080-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+11:37:49.774 [http-nio-8080-exec-7] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+11:37:49.774 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+11:37:49.775 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+11:37:49.775 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+11:37:49.776 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+11:37:49.776 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Mon Oct 04 11:37:49 IST 2021, status=404, error=Not Found, path=/csrf}]
+11:37:49.777 [http-nio-8080-exec-7] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+11:38:27.378 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - POST "/api/v1/publisher", parameters={}
+11:38:27.378 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.springboot.microservice.book.controller.PublisherController#addOrUpdatePublisher(PublisherDTO)
+11:38:27.410 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PublisherDTO(id=null, name=Sunshine, contactNo=9876543210)]
+11:38:27.440 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.springboot.microservice.book.exception.ControllerAdviser#handleException(Exception, WebRequest)
+11:38:27.441 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+11:38:27.441 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Integer> com.springboot.microservice.book.controller.PublisherController.addOrUpdatePublisher(com.springboot.microservice.book.dto.PublisherDTO): [Field error in object 'publisherDTO' on field 'contactNo': rejected value [9876543210]; codes [Pattern.publisherDTO.contactNo,Pattern.contactNo,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [publisherDTO.contactNo,contactNo]; arguments []; default message [contactNo],[Ljavax.validation.constraints.Pattern$Flag;@31fb1334,^0-9{10}$]; default message [only numeric value of 10 digits]] ]
+11:38:27.441 [http-nio-8080-exec-8] DEBUG o.s.w.s.DispatcherServlet - Completed 400 BAD_REQUEST
+11:50:04.708 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 4432 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+11:50:04.711 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+11:50:05.969 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:50:06.028 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+11:50:06.917 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:50:06.926 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:50:06.927 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+11:50:06.927 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+11:50:07.023 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+11:50:07.023 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2262 ms
+11:50:07.307 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+11:50:07.313 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+11:50:07.470 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+11:50:07.530 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+11:50:07.576 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.022s)
+11:50:07.588 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+11:50:07.589 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+11:50:08.786 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:50:09.314 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:50:09.387 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 16 mappings in 'requestMappingHandlerMapping'
+11:50:09.455 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+11:50:09.597 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+11:50:09.660 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+11:50:09.668 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+11:50:09.769 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:50:09.793 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:50:10.054 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 5.749 seconds (JVM running for 6.365)
+11:50:20.759 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:50:20.759 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:50:20.759 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+11:50:20.759 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+11:50:20.759 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected FixedThemeResolver
+11:50:20.763 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@369fb99a
+11:50:20.763 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3e595da3
+11:50:20.763 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+11:50:20.763 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 4 ms
+11:50:20.774 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - POST "/api/v1/publisher", parameters={}
+11:50:20.780 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.springboot.microservice.book.controller.PublisherController#addOrUpdatePublisher(PublisherDTO)
+11:50:20.834 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PublisherDTO(id=null, name=Sunshine, contactNo=9876543210)]
+11:50:21.161 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+11:50:21.162 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [1]
+11:50:21.178 [http-nio-8080-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:50:21.196 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2", parameters={}
+11:50:21.198 [http-nio-8080-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/]]
+11:50:21.203 [http-nio-8080-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 304 NOT_MODIFIED
