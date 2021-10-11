@@ -28,7 +28,7 @@ public class SwaggerConfig {
                 "Provides microservice for Books",
                 "version 1",
                 "Terms and service",
-                new Contact("Amruta Chichani","http://localhost:8080","amruta.chichani@clairvoyantsoft.com"),
+                new Contact("Amruta Chichani","http://localhost:8082","amruta.chichani@clairvoyantsoft.com"),
                 "License of API","License URL", Collections.emptyList());
     }
 }

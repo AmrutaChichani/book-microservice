@@ -26,3 +26,12 @@ CREATE TABLE IF NOT EXISTS `book` (
   KEY `FK_book_publisher` (`publisher_id`),
   CONSTRAINT `FK_book_publisher` FOREIGN KEY (`publisher_id`) REFERENCES `publisher` (`publisher_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE IF NOT EXISTS `book_author` (
+  `book_id` int NOT NULL,
+  `author_id` int NOT NULL,
+  KEY `FK_book_author_author` (`author_id`),
+  KEY `FK_book_author_book` (`book_id`),
+  CONSTRAINT `FK_book_author_author` FOREIGN KEY (`author_id`) REFERENCES `author` (`author_id`),
+  CONSTRAINT `FK_book_author_book` FOREIGN KEY (`book_id`) REFERENCES `book` (`book_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
