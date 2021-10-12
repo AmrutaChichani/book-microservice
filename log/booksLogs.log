@@ -1102,3 +1102,1092 @@ java.lang.NullPointerException: null
 12:28:06.273 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 12:28:06.275 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 12:28:06.306 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 31 ms
+16:20:54.013 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+16:20:54.020 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 14416 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+16:20:54.021 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+16:20:55.670 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:20:55.755 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+16:20:56.839 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+16:20:56.851 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+16:20:56.852 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+16:20:56.852 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+16:20:56.959 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+16:20:56.959 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2879 ms
+16:20:57.284 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+16:20:57.290 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+16:20:57.468 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+16:20:57.528 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+16:20:58.012 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.456s)
+16:20:58.025 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+16:20:58.026 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+16:20:58.162 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:20:58.298 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+16:20:58.641 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:20:58.857 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+16:20:59.887 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:20:59.898 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:21:01.027 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:21:01.305 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+16:21:01.673 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+16:21:01.693 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+16:21:02.303 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 8.698 seconds (JVM running for 9.398)
+16:42:28.331 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:42:28.332 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:42:28.335 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 3 ms
+16:42:40.835 [http-nio-8082-exec-3] INFO  c.s.m.b.s.BookServices - Invalid book id:20
+10:54:09.298 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+10:54:09.307 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 10440 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+10:54:09.557 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+10:54:11.084 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:54:11.148 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+10:54:12.397 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+10:54:12.408 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+10:54:12.408 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+10:54:12.408 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+10:54:12.507 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10:54:12.508 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2878 ms
+10:54:12.836 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+10:54:12.845 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+10:54:13.024 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+10:54:13.118 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+10:54:13.353 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.191s)
+10:54:13.364 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+10:54:13.365 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+10:54:13.444 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:54:13.524 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+10:54:13.728 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:54:13.869 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+10:54:14.703 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:54:14.711 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:54:15.268 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:54:15.443 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+10:54:15.772 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+10:54:15.796 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+10:54:16.109 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 7.209 seconds (JVM running for 7.956)
+10:54:34.223 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:54:34.224 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:54:34.228 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 4 ms
+11:07:55.380 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+11:07:55.390 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 10868 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+11:07:55.390 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+11:07:56.762 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:07:56.818 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+11:07:57.806 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+11:07:57.815 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+11:07:57.816 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+11:07:57.816 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+11:07:57.917 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+11:07:57.917 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2448 ms
+11:07:58.209 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+11:07:58.217 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+11:07:58.402 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+11:07:58.457 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+11:07:58.769 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.139s)
+11:07:58.795 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+11:07:58.796 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+11:07:58.870 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:07:58.923 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+11:07:59.087 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:07:59.201 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:07:59.829 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:07:59.838 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:08:00.512 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:08:00.681 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+11:08:01.002 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+11:08:01.021 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+11:08:01.294 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 6.289 seconds (JVM running for 6.892)
+11:08:12.850 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:08:12.851 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:08:12.852 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+11:09:05.872 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 12908 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+11:09:05.871 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+11:09:05.875 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+11:09:07.194 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:09:07.250 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 3 JPA repository interfaces.
+11:09:08.219 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+11:09:08.229 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+11:09:08.229 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+11:09:08.229 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+11:09:08.323 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+11:09:08.323 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2388 ms
+11:09:08.597 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+11:09:08.602 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+11:09:08.748 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+11:09:08.797 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+11:09:08.840 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.020s)
+11:09:08.848 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+11:09:08.849 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+11:09:08.932 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:09:08.996 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+11:09:09.145 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+11:09:09.293 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+11:09:09.941 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:09:09.949 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:09:10.630 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:09:10.772 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+11:09:11.096 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+11:09:11.113 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+11:09:11.414 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 5.911 seconds (JVM running for 6.513)
+11:09:22.925 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:09:22.926 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:09:22.927 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+13:20:32.559 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+13:20:32.573 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 10348 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+13:20:32.574 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+13:20:33.969 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:20:34.029 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+13:20:35.039 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+13:20:35.049 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+13:20:35.049 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+13:20:35.050 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+13:20:35.151 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+13:20:35.152 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2519 ms
+13:20:35.432 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+13:20:35.438 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+13:20:35.582 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+13:20:35.630 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+13:20:35.669 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.019s)
+13:20:35.678 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+13:20:35.679 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+13:20:35.763 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:20:35.824 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:20:35.988 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:20:36.140 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+13:20:36.756 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:20:36.764 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:20:37.530 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:20:37.680 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+13:20:37.957 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+13:20:37.976 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+13:20:38.254 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 6.068 seconds (JVM running for 6.655)
+13:20:59.508 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:20:59.508 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:20:59.510 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+13:23:53.830 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+13:23:53.841 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 13276 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+13:23:53.841 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+13:23:55.192 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:23:55.249 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+13:23:56.231 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+13:23:56.241 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+13:23:56.241 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+13:23:56.242 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+13:23:56.987 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+13:23:56.987 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3070 ms
+13:23:57.252 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+13:23:57.259 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+13:23:57.403 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+13:23:57.453 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+13:23:57.493 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.019s)
+13:23:57.502 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+13:23:57.503 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+13:23:57.585 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:23:57.644 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:23:57.803 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:23:57.942 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+13:23:58.575 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:23:58.583 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:23:59.203 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:23:59.338 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+13:23:59.626 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+13:23:59.644 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+13:23:59.910 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 6.457 seconds (JVM running for 7.054)
+13:24:05.772 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:24:05.772 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:24:05.776 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 4 ms
+13:35:36.101 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+13:35:36.114 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 9880 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+13:35:36.115 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+13:35:37.436 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:35:37.493 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+13:35:38.443 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+13:35:38.453 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+13:35:38.454 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+13:35:38.454 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+13:35:38.560 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+13:35:38.560 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2395 ms
+13:35:38.830 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+13:35:38.836 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+13:35:38.988 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+13:35:39.049 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+13:35:39.098 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.022s)
+13:35:39.109 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+13:35:39.110 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+13:35:39.192 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:35:39.250 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:35:39.406 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:35:39.523 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+13:35:40.155 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:35:40.163 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:35:40.830 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:35:40.977 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+13:35:41.257 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+13:35:41.275 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+13:35:41.566 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 5.814 seconds (JVM running for 6.404)
+13:35:54.992 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:35:54.992 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:35:54.996 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 4 ms
+16:35:32.949 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 11256 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+16:35:32.947 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+16:35:32.952 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+16:35:34.228 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:35:34.288 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+16:35:35.264 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+16:35:35.277 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+16:35:35.277 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+16:35:35.277 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+16:35:35.383 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+16:35:35.383 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2387 ms
+16:35:35.695 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+16:35:35.701 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+16:35:35.859 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+16:35:35.915 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+16:35:35.968 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.024s)
+16:35:35.980 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+16:35:35.980 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+16:35:36.059 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:35:36.115 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+16:35:36.262 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:35:36.396 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+16:35:37.000 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:35:37.142 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:35:37.631 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:35:37.779 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+16:35:38.072 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+16:35:38.089 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+16:35:38.343 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 5.779 seconds (JVM running for 6.423)
+16:35:43.514 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:35:43.514 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:35:43.516 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+17:25:18.914 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+17:25:18.919 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 8736 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+17:25:18.919 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+17:25:20.226 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:25:20.320 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+17:25:21.396 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+17:25:21.407 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+17:25:21.407 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+17:25:21.407 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+17:25:21.518 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+17:25:21.518 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2550 ms
+17:25:21.787 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+17:25:21.793 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+17:25:21.948 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+17:25:21.999 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+17:25:22.039 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.019s)
+17:25:22.048 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+17:25:22.048 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+17:25:22.120 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:25:22.175 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:25:22.330 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:25:22.442 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+17:25:23.057 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:25:23.065 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:25:23.626 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookController': Unsatisfied dependency expressed through field 'bookServices'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookServices': Unsatisfied dependency expressed through field 'booksDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookDAO' defined in com.springboot.microservice.book.dao.BookDAO defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! Reason: Failed to create query for method public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! No property bookAuthor found for type Book!; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! No property bookAuthor found for type Book!
+17:25:23.626 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:25:23.639 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:25:23.654 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:25:23.656 [main] INFO  o.a.c.c.StandardService - Stopping service [Tomcat]
+17:25:23.668 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:25:23.760 [main] ERROR o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookController': Unsatisfied dependency expressed through field 'bookServices'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookServices': Unsatisfied dependency expressed through field 'booksDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookDAO' defined in com.springboot.microservice.book.dao.BookDAO defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! Reason: Failed to create query for method public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! No property bookAuthor found for type Book!; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! No property bookAuthor found for type Book!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.springboot.microservice.book.BooksMicroserviceApplication.main(BooksMicroserviceApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookServices': Unsatisfied dependency expressed through field 'booksDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookDAO' defined in com.springboot.microservice.book.dao.BookDAO defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! Reason: Failed to create query for method public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! No property bookAuthor found for type Book!; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! No property bookAuthor found for type Book!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookDAO' defined in com.springboot.microservice.book.dao.BookDAO defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! Reason: Failed to create query for method public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! No property bookAuthor found for type Book!; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! No property bookAuthor found for type Book!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 34 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! Reason: Failed to create query for method public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! No property bookAuthor found for type Book!; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! No property bookAuthor found for type Book!
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:106)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:94)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:96)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:86)
+	at java.util.Optional.map(Optional.java:215)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:86)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:360)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 44 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findByBookAuthorContaining(java.lang.String,org.springframework.data.domain.Pageable)! No property bookAuthor found for type Book!
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:107)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:218)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:102)
+	... 66 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property bookAuthor found for type Book!
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:437)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:413)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:366)
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:348)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:331)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:249)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:250)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:383)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:384)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:95)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:89)
+	... 70 common frames omitted
+17:28:19.608 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+17:28:19.622 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 6532 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+17:28:19.623 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+17:28:20.936 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:28:20.999 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+17:28:21.986 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+17:28:21.996 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+17:28:21.997 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+17:28:21.997 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+17:28:22.097 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+17:28:22.097 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2424 ms
+17:28:22.376 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+17:28:22.382 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+17:28:22.539 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+17:28:22.593 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+17:28:22.638 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.021s)
+17:28:22.648 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+17:28:22.649 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+17:28:22.721 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:28:22.776 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:28:22.933 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:28:23.056 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+17:28:23.661 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:28:23.806 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:28:24.372 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:28:24.515 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+17:28:24.831 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+17:28:24.853 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+17:28:25.149 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 5.906 seconds (JVM running for 6.513)
+17:28:39.021 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:28:39.022 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:28:39.023 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+17:29:10.429 [http-nio-8082-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Parameter value [%james%] did not match expected type [com.springboot.microservice.book.entity.Author (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [%james%] did not match expected type [com.springboot.microservice.book.entity.Author (n/a)]] with root cause
+java.lang.IllegalArgumentException: Parameter value [%james%] did not match expected type [com.springboot.microservice.book.entity.Author (n/a)]
+	at org.hibernate.query.spi.QueryParameterBindingValidator.validate(QueryParameterBindingValidator.java:54)
+	at org.hibernate.query.spi.QueryParameterBindingValidator.validate(QueryParameterBindingValidator.java:27)
+	at org.hibernate.query.internal.QueryParameterBindingImpl.validate(QueryParameterBindingImpl.java:90)
+	at org.hibernate.query.internal.QueryParameterBindingImpl.setBindValue(QueryParameterBindingImpl.java:55)
+	at org.hibernate.query.internal.AbstractProducedQuery.setParameter(AbstractProducedQuery.java:494)
+	at org.hibernate.query.internal.AbstractProducedQuery.setParameter(AbstractProducedQuery.java:115)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:393)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:61)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$BindableQuery.setParameter(QueryParameterSetter.java:319)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$NamedOrIndexedQueryParameterSetter.lambda$setParameter$3(QueryParameterSetter.java:116)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$ErrorHandling$1.execute(QueryParameterSetter.java:141)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$NamedOrIndexedQueryParameterSetter.setParameter(QueryParameterSetter.java:116)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:82)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:74)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:95)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.invokeBinding(PartTreeJpaQuery.java:324)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:243)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.doCreateQuery(PartTreeJpaQuery.java:106)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:227)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$PagedExecution.doExecute(JpaQueryExecution.java:175)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:155)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:143)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:159)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy126.findByAuthorsContaining(Unknown Source)
+	at com.springboot.microservice.book.service.BookServices.getCatalogByAuthorFilter(BookServices.java:54)
+	at com.springboot.microservice.book.controller.BookController.getCatalogByAuthorFilter(BookController.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+17:38:05.651 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+17:38:05.665 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 8576 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+17:38:05.665 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+17:38:07.050 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:38:07.116 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+17:38:08.110 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+17:38:08.120 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+17:38:08.120 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+17:38:08.120 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+17:38:08.222 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+17:38:08.223 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2495 ms
+17:38:08.533 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+17:38:08.539 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+17:38:08.695 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+17:38:08.749 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+17:38:08.786 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.017s)
+17:38:08.795 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+17:38:08.795 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+17:38:08.874 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:38:08.927 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:38:09.101 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:38:09.231 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+17:38:09.879 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:38:09.887 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:38:10.625 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:38:10.785 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+17:38:11.077 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+17:38:11.101 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+17:38:11.389 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 6.108 seconds (JVM running for 6.71)
+17:38:28.816 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:38:28.817 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:38:28.818 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+17:38:46.230 [http-nio-8082-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Parameter value [%1%] did not match expected type [com.springboot.microservice.book.entity.Publisher (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [%1%] did not match expected type [com.springboot.microservice.book.entity.Publisher (n/a)]] with root cause
+java.lang.IllegalArgumentException: Parameter value [%1%] did not match expected type [com.springboot.microservice.book.entity.Publisher (n/a)]
+	at org.hibernate.query.spi.QueryParameterBindingValidator.validate(QueryParameterBindingValidator.java:54)
+	at org.hibernate.query.spi.QueryParameterBindingValidator.validate(QueryParameterBindingValidator.java:27)
+	at org.hibernate.query.internal.QueryParameterBindingImpl.validate(QueryParameterBindingImpl.java:90)
+	at org.hibernate.query.internal.QueryParameterBindingImpl.setBindValue(QueryParameterBindingImpl.java:55)
+	at org.hibernate.query.internal.AbstractProducedQuery.setParameter(AbstractProducedQuery.java:494)
+	at org.hibernate.query.internal.AbstractProducedQuery.setParameter(AbstractProducedQuery.java:115)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:393)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:61)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$BindableQuery.setParameter(QueryParameterSetter.java:319)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$NamedOrIndexedQueryParameterSetter.lambda$setParameter$3(QueryParameterSetter.java:116)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$ErrorHandling$1.execute(QueryParameterSetter.java:141)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$NamedOrIndexedQueryParameterSetter.setParameter(QueryParameterSetter.java:116)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:82)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:74)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:95)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.invokeBinding(PartTreeJpaQuery.java:324)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:243)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.doCreateQuery(PartTreeJpaQuery.java:106)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:227)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$PagedExecution.doExecute(JpaQueryExecution.java:175)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:155)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:143)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:159)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy126.findByPublisherContaining(Unknown Source)
+	at com.springboot.microservice.book.service.BookServices.getCatalogByPublisherFilter(BookServices.java:59)
+	at com.springboot.microservice.book.controller.BookController.getCatalogByNameFilter(BookController.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+17:42:12.679 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 14108 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+17:42:12.675 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+17:42:12.680 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+17:42:14.015 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:42:14.069 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+17:42:15.070 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+17:42:15.080 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+17:42:15.081 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+17:42:15.081 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+17:42:15.184 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+17:42:15.184 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2440 ms
+17:42:15.468 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+17:42:15.475 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+17:42:15.628 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+17:42:15.679 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+17:42:15.726 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.022s)
+17:42:15.737 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+17:42:15.738 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+17:42:15.815 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:42:15.872 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:42:16.009 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:42:16.134 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+17:42:16.806 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:42:16.815 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:42:17.614 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:42:17.799 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+17:42:18.116 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+17:42:18.139 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+17:42:18.456 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 6.136 seconds (JVM running for 6.736)
+17:42:30.783 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:42:30.783 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:42:30.786 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 3 ms
+17:43:08.008 [http-nio-8082-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Parameter value [1] did not match expected type [com.springboot.microservice.book.entity.Author (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [1] did not match expected type [com.springboot.microservice.book.entity.Author (n/a)]] with root cause
+java.lang.IllegalArgumentException: Parameter value [1] did not match expected type [com.springboot.microservice.book.entity.Author (n/a)]
+	at org.hibernate.query.spi.QueryParameterBindingValidator.validate(QueryParameterBindingValidator.java:54)
+	at org.hibernate.query.spi.QueryParameterBindingValidator.validate(QueryParameterBindingValidator.java:27)
+	at org.hibernate.query.internal.QueryParameterBindingImpl.validate(QueryParameterBindingImpl.java:90)
+	at org.hibernate.query.internal.QueryParameterBindingImpl.setBindValue(QueryParameterBindingImpl.java:55)
+	at org.hibernate.query.internal.AbstractProducedQuery.setParameter(AbstractProducedQuery.java:494)
+	at org.hibernate.query.internal.AbstractProducedQuery.setParameter(AbstractProducedQuery.java:115)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:393)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:61)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$BindableQuery.setParameter(QueryParameterSetter.java:319)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$NamedOrIndexedQueryParameterSetter.lambda$setParameter$3(QueryParameterSetter.java:116)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$ErrorHandling$1.execute(QueryParameterSetter.java:141)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$NamedOrIndexedQueryParameterSetter.setParameter(QueryParameterSetter.java:116)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:82)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:74)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:95)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.invokeBinding(PartTreeJpaQuery.java:324)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:243)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.doCreateQuery(PartTreeJpaQuery.java:106)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:227)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$PagedExecution.doExecute(JpaQueryExecution.java:175)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:155)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:143)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:159)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy126.findAllByAuthors(Unknown Source)
+	at com.springboot.microservice.book.service.BookServices.getCatalogByAuthorFilter(BookServices.java:54)
+	at com.springboot.microservice.book.controller.BookController.getCatalogByAuthorFilter(BookController.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+17:45:29.433 [http-nio-8082-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Parameter value [2] did not match expected type [com.springboot.microservice.book.entity.Publisher (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [2] did not match expected type [com.springboot.microservice.book.entity.Publisher (n/a)]] with root cause
+java.lang.IllegalArgumentException: Parameter value [2] did not match expected type [com.springboot.microservice.book.entity.Publisher (n/a)]
+	at org.hibernate.query.spi.QueryParameterBindingValidator.validate(QueryParameterBindingValidator.java:54)
+	at org.hibernate.query.spi.QueryParameterBindingValidator.validate(QueryParameterBindingValidator.java:27)
+	at org.hibernate.query.internal.QueryParameterBindingImpl.validate(QueryParameterBindingImpl.java:90)
+	at org.hibernate.query.internal.QueryParameterBindingImpl.setBindValue(QueryParameterBindingImpl.java:55)
+	at org.hibernate.query.internal.AbstractProducedQuery.setParameter(AbstractProducedQuery.java:494)
+	at org.hibernate.query.internal.AbstractProducedQuery.setParameter(AbstractProducedQuery.java:115)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:393)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:61)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$BindableQuery.setParameter(QueryParameterSetter.java:319)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$NamedOrIndexedQueryParameterSetter.lambda$setParameter$3(QueryParameterSetter.java:116)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$ErrorHandling$1.execute(QueryParameterSetter.java:141)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$NamedOrIndexedQueryParameterSetter.setParameter(QueryParameterSetter.java:116)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:82)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:74)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:95)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.invokeBinding(PartTreeJpaQuery.java:324)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:243)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.doCreateQuery(PartTreeJpaQuery.java:106)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:227)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$PagedExecution.doExecute(JpaQueryExecution.java:175)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:155)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:143)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:159)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy126.findAllByPublisher(Unknown Source)
+	at com.springboot.microservice.book.service.BookServices.getCatalogByPublisherFilter(BookServices.java:59)
+	at com.springboot.microservice.book.controller.BookController.getCatalogByNameFilter(BookController.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+18:19:48.334 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:19:48.344 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 9368 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+18:19:48.344 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+18:19:49.738 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:19:49.793 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+18:19:50.720 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+18:19:50.729 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+18:19:50.730 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+18:19:50.730 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+18:19:50.829 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+18:19:50.829 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2439 ms
+18:19:51.095 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+18:19:51.101 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+18:19:51.275 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+18:19:51.339 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+18:19:51.383 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.020s)
+18:19:51.394 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+18:19:51.395 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+18:19:51.474 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:19:51.527 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+18:19:51.676 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:19:51.810 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:19:52.548 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:19:52.561 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:19:52.907 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookController': Unsatisfied dependency expressed through field 'bookServices'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookServices': Unsatisfied dependency expressed through field 'booksDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookDAO' defined in com.springboot.microservice.book.dao.BookDAO defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findAllByAuthors(java.lang.Integer,org.springframework.data.domain.Pageable)! Reason: JDBC style parameters (?) are not supported for JPA queries.; nested exception is java.lang.IllegalArgumentException: JDBC style parameters (?) are not supported for JPA queries.
+18:19:52.908 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:19:52.910 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:19:52.920 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:19:52.923 [main] INFO  o.a.c.c.StandardService - Stopping service [Tomcat]
+18:19:52.941 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:19:52.959 [main] ERROR o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookController': Unsatisfied dependency expressed through field 'bookServices'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookServices': Unsatisfied dependency expressed through field 'booksDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookDAO' defined in com.springboot.microservice.book.dao.BookDAO defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findAllByAuthors(java.lang.Integer,org.springframework.data.domain.Pageable)! Reason: JDBC style parameters (?) are not supported for JPA queries.; nested exception is java.lang.IllegalArgumentException: JDBC style parameters (?) are not supported for JPA queries.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.springboot.microservice.book.BooksMicroserviceApplication.main(BooksMicroserviceApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookServices': Unsatisfied dependency expressed through field 'booksDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookDAO' defined in com.springboot.microservice.book.dao.BookDAO defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findAllByAuthors(java.lang.Integer,org.springframework.data.domain.Pageable)! Reason: JDBC style parameters (?) are not supported for JPA queries.; nested exception is java.lang.IllegalArgumentException: JDBC style parameters (?) are not supported for JPA queries.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookDAO' defined in com.springboot.microservice.book.dao.BookDAO defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findAllByAuthors(java.lang.Integer,org.springframework.data.domain.Pageable)! Reason: JDBC style parameters (?) are not supported for JPA queries.; nested exception is java.lang.IllegalArgumentException: JDBC style parameters (?) are not supported for JPA queries.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 34 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract org.springframework.data.domain.Page com.springboot.microservice.book.dao.BookDAO.findAllByAuthors(java.lang.Integer,org.springframework.data.domain.Pageable)! Reason: JDBC style parameters (?) are not supported for JPA queries.; nested exception is java.lang.IllegalArgumentException: JDBC style parameters (?) are not supported for JPA queries.
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:106)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:94)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:96)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:86)
+	at java.util.Optional.map(Optional.java:215)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:86)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:360)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 44 common frames omitted
+Caused by: java.lang.IllegalArgumentException: JDBC style parameters (?) are not supported for JPA queries.
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.data.jpa.repository.query.AbstractStringBasedJpaQuery.<init>(AbstractStringBasedJpaQuery.java:72)
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:61)
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76)
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:146)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:216)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:102)
+	... 66 common frames omitted
+18:20:53.646 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:20:53.650 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 3552 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+18:20:53.650 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+18:20:54.964 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:20:55.025 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 3 JPA repository interfaces.
+18:20:55.979 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+18:20:55.989 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+18:20:55.989 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+18:20:55.989 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+18:20:56.094 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+18:20:56.095 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2377 ms
+18:20:56.374 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+18:20:56.379 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+18:20:56.532 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+18:20:56.593 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+18:20:56.638 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.019s)
+18:20:56.649 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+18:20:56.650 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+18:20:56.726 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:20:56.779 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+18:20:56.931 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:20:57.069 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:20:57.746 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:20:57.755 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:20:58.453 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:20:58.603 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+18:20:58.894 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+18:20:58.915 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+18:20:59.192 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 5.905 seconds (JVM running for 6.494)
+18:21:04.591 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:21:04.591 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:21:04.595 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 4 ms
+18:25:24.741 [background-preinit] INFO  o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.0.Final
+18:25:24.761 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Starting BooksMicroserviceApplication using Java 1.8.0_242 on Clairvoyant-259 with PID 6508 (D:\study Material\Microservices\BooksMicroservice\BooksMicroservice\target\classes started by Amruta Chichani in D:\study Material\Microservices\BooksMicroservice\BooksMicroservice)
+18:25:24.762 [main] INFO  c.s.m.b.BooksMicroserviceApplication - No active profile set, falling back to default profiles: default
+18:25:26.100 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:25:26.157 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 3 JPA repository interfaces.
+18:25:27.130 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+18:25:27.140 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+18:25:27.140 [main] INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+18:25:27.140 [main] INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+18:25:27.237 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+18:25:27.237 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2418 ms
+18:25:27.522 [main] INFO  o.f.c.i.l.VersionPrinter - Flyway Community Edition 7.7.3 by Redgate
+18:25:27.528 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+18:25:27.679 [main] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+18:25:27.732 [main] INFO  o.f.c.i.d.b.DatabaseType - Database: jdbc:mysql://localhost:3306/db_microservice_bookstore (MySQL 8.0)
+18:25:27.771 [main] INFO  o.f.c.i.c.DbValidate - Successfully validated 2 migrations (execution time 00:00.018s)
+18:25:27.780 [main] INFO  o.f.c.i.c.DbMigrate - Current version of schema `db_microservice_bookstore`: 1
+18:25:27.781 [main] INFO  o.f.c.i.c.DbMigrate - Schema `db_microservice_bookstore` is up to date. No migration necessary.
+18:25:27.856 [main] INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:25:27.911 [main] INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+18:25:28.055 [main] INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:25:28.192 [main] INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18:25:28.963 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:25:28.971 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:25:29.574 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:25:29.736 [main] INFO  o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+18:25:30.055 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+18:25:30.074 [main] INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+18:25:30.376 [main] INFO  c.s.m.b.BooksMicroserviceApplication - Started BooksMicroserviceApplication in 5.988 seconds (JVM running for 6.591)
+18:25:42.454 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:25:42.455 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:25:42.459 [http-nio-8082-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 4 ms

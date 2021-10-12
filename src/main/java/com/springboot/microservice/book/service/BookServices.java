@@ -7,6 +7,10 @@ import com.springboot.microservice.book.entity.Book;
 import com.springboot.microservice.book.exception.BadRequestException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -26,11 +30,33 @@ public class BookServices {
     @Autowired
     private PublisherServices publisherServices;
 
-    public List<BookResponseDTO> getCatalog() {
-        List<BookResponseDTO> result=new ArrayList<>();
-        booksDao.findAll().forEach(book ->
-                result.add(BookResponseDTO.from(book)));
-        return result;
+    public Page<Book> getCatalog(Integer page,Integer size) {
+
+        Pageable bookPage= PageRequest.of(page,size);
+        Page<Book> bookPages=booksDao.findAll(bookPage);
+        return bookPages;
+    }
+    public Page<Book> getCatalog(Integer page,Integer size, String sortBy) {
+
+        Pageable bookPage= PageRequest.of(page,size, Sort.by(sortBy));
+        Page<Book> bookPages=booksDao.findAll(bookPage);
+
+        return bookPages;
+
+    }
+
+    public Page<Book> getCatalogByCategoryFilter(String name,Integer page, Integer size){
+        Pageable bookPage=PageRequest.of(page,size);
+        return booksDao.findByCategoryContaining(name,bookPage);
+    }
+    public Page<Book> getCatalogByAuthorFilter(Integer author,Integer page, Integer size){
+        Pageable bookPage=PageRequest.of(page,size);
+        return booksDao.findAllByAuthors(author,bookPage);
+    }
+
+    public Page<Book> getCatalogByPublisherFilter(Integer publisher,Integer page, Integer size){
+        Pageable bookPage=PageRequest.of(page,size);
+        return booksDao.findAllByPublisher(publisher,bookPage);
     }
 
     public BookResponseDTO getBook(int bookId) {
