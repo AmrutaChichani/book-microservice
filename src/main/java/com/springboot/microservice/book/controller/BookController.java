@@ -25,8 +25,8 @@ public class BookController {
 
     @GetMapping
     public ResponseEntity<List<BookResponseDTO>> getCatalog(
-            @RequestParam("page") Integer page,
-            @RequestParam("size") Integer size,
+            @RequestParam(name = "page",defaultValue = "0") Integer page,
+            @RequestParam(name="size",defaultValue = "3") Integer size,
             @RequestParam(required=false,name="sortBy") String sortBy) {
         Page<Book> bookPages;
         if(sortBy!=null) {
