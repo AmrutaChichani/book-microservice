@@ -5,6 +5,8 @@ import com.springboot.microservice.book.dto.BookDTO;
 import com.springboot.microservice.book.dto.BookResponseDTO;
 import com.springboot.microservice.book.entity.Book;
 import com.springboot.microservice.book.exception.BadRequestException;
+import com.springboot.microservice.book.filter.BookSpecification;
+import com.springboot.microservice.book.filter.SearchCriteria;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -13,7 +15,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -30,33 +31,10 @@ public class BookServices {
     @Autowired
     private PublisherServices publisherServices;
 
-    public Page<Book> getCatalog(Integer page,Integer size) {
-
-        Pageable bookPage= PageRequest.of(page,size);
-        Page<Book> bookPages=booksDao.findAll(bookPage);
-        return bookPages;
-    }
-    public Page<Book> getCatalog(Integer page,Integer size, String sortBy) {
-
-        Pageable bookPage= PageRequest.of(page,size, Sort.by(sortBy));
-        Page<Book> bookPages=booksDao.findAll(bookPage);
-
-        return bookPages;
-
-    }
-
-    public Page<Book> getCatalogByCategoryFilter(String name,Integer page, Integer size){
-        Pageable bookPage=PageRequest.of(page,size);
-        return booksDao.findByCategoryContaining(name,bookPage);
-    }
-    public Page<Book> getCatalogByAuthorFilter(Integer author,Integer page, Integer size){
-        Pageable bookPage=PageRequest.of(page,size);
-        return booksDao.findAllByAuthors(author,bookPage);
-    }
-
-    public Page<Book> getCatalogByPublisherFilter(Integer publisher,Integer page, Integer size){
-        Pageable bookPage=PageRequest.of(page,size);
-        return booksDao.findAllByPublisher(publisher,bookPage);
+    public Page<Book> getCatalog(Integer page,Integer size,String sortBy, List<SearchCriteria> criteria) {
+        BookSpecification bookSpecification= new BookSpecification(criteria);
+        Pageable bookPage= PageRequest.of(page,size,Sort.by(sortBy));
+                    return booksDao.findAll(bookSpecification,bookPage);
     }
 
     public BookResponseDTO getBook(int bookId) {

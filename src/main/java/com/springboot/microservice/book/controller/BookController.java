@@ -3,12 +3,12 @@ package com.springboot.microservice.book.controller;
 import com.springboot.microservice.book.dto.BookDTO;
 import com.springboot.microservice.book.dto.BookResponseDTO;
 import com.springboot.microservice.book.entity.Book;
+import com.springboot.microservice.book.filter.SearchCriteria;
+import com.springboot.microservice.book.filter.SearchOperation;
 import com.springboot.microservice.book.service.BookServices;
 import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -24,53 +24,39 @@ public class BookController {
     private BookServices bookServices;
 
     @GetMapping
-    public ResponseEntity<List<BookResponseDTO>> getCatalog(
+    public ResponseEntity<Page<Book>> getCatalog(
             @RequestParam(name = "page",defaultValue = "0") Integer page,
             @RequestParam(name="size",defaultValue = "3") Integer size,
-            @RequestParam(required=false,name="sortBy") String sortBy) {
-        Page<Book> bookPages;
-        if(sortBy!=null) {
+            @RequestParam(required=false,name="sortBy", defaultValue = "id") String sortBy,
+            @RequestParam(required = false,name = "FilterByCategory") String category,
+            @RequestParam(required = false,name = "FilterByAuthor") Integer authorId,
+            @RequestParam(required = false,name = "FilterByPublisher") Integer publisherId
+            ) {
 
-            bookPages = bookServices.getCatalog(page, size, sortBy);
-        }else{
-            bookPages =bookServices.getCatalog(page,size);
+        List<SearchCriteria> criteriaList= new ArrayList<>();
+        if(category!=null){
+            SearchCriteria sc=new SearchCriteria();
+            sc.setKey("category");
+            sc.setValue(category);
+            sc.setOperation(SearchOperation.MATCH);
+            criteriaList.add(sc);
         }
-
-        return buildResponse(bookPages);
-    }
-
-    private ResponseEntity<List<BookResponseDTO>> buildResponse(Page<Book> bookPages) {
-        List<BookResponseDTO> result=new ArrayList<>();
-        bookPages.getContent().forEach(book -> {
-            result.add(BookResponseDTO.from(book));
-        });
-        HttpHeaders responseHeader=new HttpHeaders();
-        responseHeader.set("total-elements", String.valueOf(bookPages.getTotalElements()));
-        responseHeader.set("total-no-of-Pages", String.valueOf(bookPages.getTotalPages()));
-        responseHeader.set("current-page",String.valueOf(bookPages.getNumber()));
-        return ResponseEntity.ok().headers(responseHeader).body(result);
-    }
-
-    @GetMapping("/filter/publisher")
-    public ResponseEntity<List<BookResponseDTO>> getCatalogByPublisherFilter( @RequestParam("page") Integer page,
-                                                   @RequestParam("size") Integer size,
-                                                   @RequestParam(name="publisherId") Integer publisher){
-        Page<Book> catalogPages=bookServices.getCatalogByPublisherFilter(publisher,page,size);
-        return buildResponse(catalogPages);
-    }
-    @GetMapping("/filter/author")
-    public ResponseEntity<List<BookResponseDTO>> getCatalogByAuthorFilter( @RequestParam("page") Integer page,
-                                                                   @RequestParam("size") Integer size,
-                                                                   @RequestParam(name="authorId") Integer author){
-        Page<Book> catalogPages=bookServices.getCatalogByAuthorFilter(author,page,size);
-        return buildResponse(catalogPages);
-    }
-    @GetMapping("/filter/category")
-    public ResponseEntity<List<BookResponseDTO>> getCatalogByCategoryFilter( @RequestParam("page") Integer page,
-                                                                   @RequestParam("size") Integer size,
-                                                                   @RequestParam(name="category") String category){
-        Page<Book> catalogPages=bookServices.getCatalogByCategoryFilter(category,page,size);
-        return buildResponse(catalogPages);
+        if(authorId!=null){
+            SearchCriteria sc=new SearchCriteria();
+            sc.setKey("author_id");
+            sc.setValue(authorId.toString());
+            sc.setOperation(SearchOperation.EQUAL);
+            criteriaList.add(sc);
+        }
+        if(publisherId!=null){
+            SearchCriteria sc=new SearchCriteria();
+            sc.setKey("publisher");
+            sc.setValue(publisherId.toString());
+            sc.setOperation(SearchOperation.EQUAL);
+            criteriaList.add(sc);
+        }
+        Page<Book> bookPages= bookServices.getCatalog(page, size, sortBy,criteriaList);
+        return ResponseEntity.ok().body(bookPages);
     }
 
     @GetMapping("/{bookId}")
