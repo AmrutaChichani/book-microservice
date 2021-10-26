@@ -20,6 +20,8 @@ public class BookDTO {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date publishDate;
 
+
+
     public static BookDTO from(Book book){
         BookDTO dto = new BookDTO();
         if(book.getId()!=null)
